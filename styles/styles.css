@@ -39,11 +39,6 @@ main {
 
 aside {
     width: 20rem;
-    margin: 1rem;
-    border: 1px solid rgb(0 0 0 / 0.2); 
-    padding: 1rem;
-    background-color:antiquewhite;
-    color:brown;
     text-align: center;
     position: relative;
 }
@@ -58,7 +53,7 @@ aside img {
     width: 200px;
     height: auto;
     margin: 10;
-    align
+    
 }
 
 
@@ -82,10 +77,12 @@ footer {
     text-align: center;
 }
 
+/* Class Selectors */
+
 .box{
     margin: 1rem;
-    border: solid rgb(0, 0, 0, 0.1);
+    border: solid rgb(0, 0, 0 / 10%);
     padding: 1rem;
-    background-color: #eee;
+    background-color: #ddd;
     color: #000;
 }
