@@ -122,3 +122,149 @@ article {
     float: right;
     width: 125px;
 }
+
+.history {
+    width: 840px;       
+    margin: 2rem auto;
+    text-align: center;
+}
+
+.history h2 {
+    margin-bottom: 2rem;
+    color: whitesmoke;
+}
+
+.history-content {
+    display: flex;
+    justify-content: center;     
+    align-items: center;         
+    gap: 1.5rem;                 
+}
+
+
+.history-left,
+.history-right {
+    width: 250px;                
+    text-align: left;
+}
+
+.history-center {
+    flex: 0 0 auto;              
+}
+
+.history-center img {
+    width: 200px;                
+    height: auto;
+    border-radius: 2px;
+}
+
+.history p {
+    line-height: 1.6;
+    color: var(--accent1-color);
+}
+
+@media (max-width: 900px) {
+  .history-content {
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+  }
+
+  .history-left,
+  .history-right {
+      width: 100%;               
+      text-align: center;
+  }
+
+  .history-center img {
+      margin: 1rem 0;
+  }
+}
+
+.adventures {
+    width: 840px;
+    margin: 3rem auto;
+    text-align: center;
+}
+
+.adventures h2 {
+    margin-bottom: 2rem;
+    color: whitesmoke;
+}
+
+
+.adventure-gallery {
+    display: flex;
+    justify-content: space-between;  
+    align-items: flex-start;
+    gap: 1rem;                        
+    flex-wrap: wrap;                   
+}
+
+.adventure-gallery figure {
+    flex: 1 1 150px;                   
+    text-align: center;
+    margin: 0;
+}
+
+.adventure-gallery img {
+    width: 100%;
+    height: auto;
+    border-radius: 4px;
+    display: block;
+}
+
+.adventure-gallery figcaption {
+    margin-top: 0.5rem;
+    font-size: 0.9rem;
+    color: var(--accent1-color);
+}
+
+footer {
+    width: 840px;
+    margin: 0 auto;
+    background-color: var(--accent1-color);
+   
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+
+footer p {
+    margin: 0;
+    color: white;
+}
+
+
+.social-icons {
+    display: flex;                  
+    gap: 2rem;                     
+    align-items: center;          
+}
+
+
+.social-icons a {
+    display: inline-block;         
+}
+
+.social-icons img {
+    width: 32px;
+    height: 32px;
+    display: block;
+    transition: transform 0.2s ease, filter 0.2s ease;
+}
+
+/* Hover effect */
+.social-icons a:hover img {
+    transform: scale(1.1);
+    filter: brightness(1.3);
+}
