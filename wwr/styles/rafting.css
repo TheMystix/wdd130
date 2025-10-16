@@ -430,7 +430,7 @@ button[type="submit"] {
   text-align: center;
   margin: 2rem auto;
   max-width: 840px;
-  width: 100;
+  width: 100%;
 }
 
 .adventures h2 {
@@ -500,7 +500,7 @@ button[type="submit"] {
   text-align: center;
   background-color: rgba(6, 29, 92, 0.9);
   padding: 2rem;
-  border-radius: px;
+  border-radius: 0px;
 }
 
 .history-content {
