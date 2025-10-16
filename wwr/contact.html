@@ -1,141 +1,120 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="A portal to rapid heart rate due to white water rafting">
-    <meta name="author" content="Jedediah Rudy">
-    <link rel="stylesheet" href="styles/rafting.css">
-    <title>Contact Us - The Rapids: White Water Rafting Adventures</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="A portal to rapid heart rate due to white water rafting">
+  <meta name="author" content="Jedediah Rudy">
+  <link rel="stylesheet" href="styles/rafting.css">
+  <title>Contact Us - The Rapids: White Water Rafting Adventures</title>
 </head>
-
 <body>
-    <header>
-        <img src="images/therapids-logo.jpg" alt="The Rapids logo">
-        <nav>
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="about.html">About Us</a></li>
-                <li><a href="trips.html">Trips</a></li>
-                <li><a href="contact.html">Contact Us</a></li>
-            </ul>
-        </nav>
-    </header>
 
-    <main>
-    <div class="contact_info">    
-        <h4>The Rapids: White Water Rafting Adventures</h4>
-        <h4>123 Rapid drive</h4>
-        <h4> Walla Walla, Washington</h4>
-        <h4>+1 999 867 5309</h4>
-        <h4>info@TheRapids.com</h>
+<header>
+  <div class="header-grid">
+    <div class="logo">
+      <img src="images/therapids-logo.jpg" alt="The Rapids Logo">
     </div>
-    <div class="contact-container">
-        <div class="google_map">
-        <iframe
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d44297.657305254506!2d-118.41615266565462!3d46.05900478957745!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x54a2154ba0d0f73b%3A0x12c4afcfe71db1d4!2sWalla%20Walla%2C%20WA%2099362!5e0!3m2!1sen!2sus!4v1760597961114!5m2!1sen!2sus"
-            width="450"
-            height="300"
-            allowfullscreen=""
-            loading="lazy"
-            referrerpolicy="no-referrer-when-downgrade"
-        ></iframe>
+    <nav class="main-nav">
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About Us</a></li>
+        <li><a href="trips.html">Trips</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<main>
+  <div class="contact-page-container">
+    <div class="contact-info">
+      <h2>The Rapids: White Water Rafting Adventures</h2>
+      <h4>123 Rapid Drive</h4>
+      <h4>Walla Walla, Washington</h4>
+      <h4>+1 999 867 5309</h4>
+      <h4>info@TheRapids.com</h4>
+    </div>
+  </div>
+
+  <div class="contact-container">
+    <div class="google_map">
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d44291.74883467888!2d-118.36961551441354!3d46.06636910129944!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x54a2154ba0d0f73b%3A0x12c4afcfe71db1d4!2sWalla%20Walla%2C%20WA%2099362!5e0!3m2!1sen!2sus!4v1760620992304!5m2!1sen!2sus" width="600" height="325" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+
+    <div class="contact_form">
+      <form>
+        <div class="form-row">
+          <label for="name">Name</label>
+          <input type="text" id="name" name="name" required>
         </div>
 
-<div class="contact_form">
-  <form>
-    <div class="form-row">
-      <label for="name">Name</label>
-      <input type="text" id="name" name="name" required>
-    </div>
+        <div class="form-row">
+          <label for="email">Email</label>
+          <input type="email" id="email" name="email" required>
+        </div>
 
-    <div class="form-row">
-      <label for="email">Email</label>
-      <input type="email" id="email" name="email" required>
-    </div>
+        <div class="radio-row">
+          <label for="_1">Message Purpose</label>
+          <div class="radio-group">
+            <div class="radio-option">
+              <input type="radio" id="_1_0" name="_1" value="general" required>
+              <label for="_1_0">General Inquiry</label>
+            </div>
+            <div class="radio-option">
+              <input type="radio" id="_1_1" name="_1" value="reservation" required>
+              <label for="_1_1">Reservation Question</label>
+            </div>
+            <div class="radio-option">
+              <input type="radio" id="_1_2" name="_1" value="website" required>
+              <label for="_1_2">Website Suggestion</label>
+            </div>
+          </div>
+        </div>
 
-    
-    <div class="radio-row">
-  <label for="_1">Message Purpose</label>
-  <div class="radio-group">
-    <div class="radio-option">
-      <div class="radio-text">General Inquiry</div>
-      <div class="radio-button">
-        <input type="radio" id="_1_0" name="_1" value="option1" required>
-      </div>
-    </div>
-    <div class="radio-option">
-      <div class="radio-text">Reservation Question</div>
-      <div class="radio-button">
-        <input type="radio" id="_1_1" name="_1" value="option2" required>
-      </div>
-    </div>
-    <div class="radio-option">
-      <div class="radio-text">Website Suggestion</div>
-      <div class="radio-button">
-        <input type="radio" id="_1_2" name="_1" value="option3" required>
-      </div>
+        <div class="form-row">
+          <label for="_2">Message</label>
+          <textarea id="_2" name="_2" required></textarea>
+        </div>
+
+        <div class="form-row center">
+          <button type="submit">Contact</button>
+        </div>
+      </form>
     </div>
   </div>
-</div>
 
-    
-    <div class="form-row">
-      <label for="_2">Message</label>
-      <textarea id="_2" name="_2" required></textarea>
+  <section class="adventures">
+    <h2>We Are Here to Serve You</h2>
+    <div class="adventure-gallery">
+      <figure>
+        <img src="images/ceo.jpg" alt="Company CEO">
+        <figcaption>CEO/Co-Owner; Theodore Preston</figcaption>
+      </figure>
+      <figure>
+        <img src="images/coo.jpg" alt="Company COO">
+        <figcaption>COO/Co-Owner; Amy Song</figcaption>
+      </figure>
+      <figure>
+        <img src="images/headguide.jpg" alt="Head Guide">
+        <figcaption>Head Guide; William Logan</figcaption>
+      </figure>
     </div>
+  </section>
+</main>
 
-    <div class="subscribe">
-    <label for="please_subscribe_me_to_the_monthly_newsletter">Please Subscribe me to the monthly newsletter</label>
-    <input type="checkbox" id="please_subscribe_me_to_the_monthly_newsletter_0" name="please_subscribe_me_to_the_monthly_newsletter" value="option1">
-    <label for="please_subscribe_me_to_the_monthly_newsletter_0">
-    </label>
+<footer>
+  <div class="footer-content">
+    <p>&copy; 2025 💦 The Rapids: White Water Rafting Adventures 💦 Jedediah Rudy</p>
+    <div class="social-icons">
+      <nav class="socialmedia">
+        <a href="#"><img src="images/x-icon.png" alt="X Icon"></a>
+        <a href="#"><img src="images/youtube-icon.png" alt="YouTube Icon"></a>
+        <a href="#"><img src="images/instagram.png" alt="Instagram Icon"></a>
+      </nav>
+    </div>
   </div>
-    <div class="form-contact">
-      <label></label> 
-      <button type="submit">Contact</button>
-    </div>
-  </form>
-</div>
-    </main>
-
-<section class="adventures">
-            <h2>We Are Here to Serve You </h2>
-            <div class="adventure-gallery">
-                <figure>
-                    <img src="images/ceo.jpg" alt="Company CEO">
-                    <figcaption>CEO/Co-Owner; Theodore Preston</figcaption>
-                </figure>
-                <figure>
-                    <img src="images/coo.jpg" alt="Company COO">
-                    <figcaption>COO/Co-Owner; Amy Song</figcaption>
-                </figure>
-                <figure>
-                    <img src="images/headguide.jpg" alt="Head Guide">
-                    <figcaption>Head Guide; William Logan</figcaption>
-                </figure>
-            </div>
-        </section>
-
-    <footer>
-        <div class="footer-content">
-            <p>&copy; 2025 💦 The Rapids: White Water Rafting Adventures 💦 Jedediah Rudy</p>
-            <div class="social-icons">
-                <nav class="socialmedia">
-                    <a href="https://x.com">
-                        <img src="images/x-icon.png" alt="X Icon">
-                    </a>
-                    <a href="https://youtube.com">
-                        <img src="images/youtube-icon.png" alt="YouTube Icon">
-                    </a>
-                    <a href="https://instagram.com">
-                        <img src="images/instagram.png" alt="Instagram Icon">
-                    </a>
-                </nav>
-            </div>
-    </footer>
+</footer>
 
 </body>
-
 </html>
